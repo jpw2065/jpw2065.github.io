@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jack Watson Portfolio</title>
+
+    <script src="https://kit.fontawesome.com/c723d31ca0.js" crossorigin="anonymous"></script>
+    <script src="./javascript/main.js"></script>
+
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/svg-triangle-stylesheet.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Changa+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cousine:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <div class="project_page">
+
+        <div class="project_box">
+
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                preserveAspectRatio="none" viewBox="0 0 640 135" id="project_waves">
+                <defs>
+                    <path
+                        d="M6.38 41.67C2.25 46.12 0.12 55.02 0 68.38L0 135L640 135C640 129.22 640 121.12 640 110.68C640 95.03 640 85.79 640 79.57C640 72.22 638.24 64.97 634.86 58.45C633.12 55.09 635.88 60.43 634.86 58.45C629.17 47.47 620.59 38.26 610.05 31.8C538.15 -12.23 446.03 -10.54 333.7 36.87C214.16 87.32 111.61 89.15 26.05 42.35C26.05 42.35 23.51 41.04 23.51 41.04C15.9 37.35 10.19 37.56 6.38 41.67Z"
+                        id="aB0wLWOy3" />
+                </defs>
+                <g>
+                    <use xlink:href="#aB0wLWOy3" fill="var(--gradient-color-two)" />
+                </g>
+            </svg>
+
+            <i class="far fa-times-circle close_project"></i>
+
+            <div id="project_text_seven" class="project_text display_grid display_none">
+
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Audio Visualizer</h2>
+                    <span class="timeline_span"><i>(2020 October)</i></span>
+                </div>
+
+                <div id="image_carnival_four" class="image_carnaval">
+                    <div class="pictures">
+                        <img src="./images/audio_visualizer/pic_one.png" class="project_pics">
+                        <img src="./images/audio_visualizer/pic_two.png" class="project_pics">
+                        <img src="./images/audio_visualizer/pic_three.png" class="project_pics">
+                        <img src="./images/audio_visualizer/pic_four.png" class="project_pics">
+                        <a class="scroll_button next" onclick="increment(3, 1)"><i class="fas fa-chevron-right"></i></a>
+                        <a class="scroll_button prev" onclick="increment(3, -1)"><i class="fas fa-chevron-left"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="p_wrapper">
+                    <p>This is the project that I am most proud of at the current moment. The reason being is the complexity this project took to undertake and the speed at which I was able to handle such complexity (about one week). This project is two-fold, the first being an audio visualizer, and the second being computer vision gesture controls. The design of the audio visualizer was crafted to give an elegant look to the interface. By allowing the user to hide elements of the user interface it created a clean look to the website. The actual audio visualizer portion was programmed using Javascript, HTML, and CSS. I then used a Tensorflow trained model to track the hands of the user by performing a linear regression on a series of points. Based on the slope of these points I was able to determine which direction the user swiped their hand. I ended up training my model with the <a href="http://vision.soic.indiana.edu/projects/egohands/" target="_blank">EgoHands</a> dataset and utilizing the <a href="https://www.tensorflow.org/api_docs/python/tf" target="_blank">Tensorflow</a> python library. Overall, this was my first time doing machine learning, and I learned a whole host of new concepts and topics. I always love going into a new area when doing a project, and this project is a prime example of that. Eventually, I plan on making the hand tracking more efficient with improved data set and more efficient models. I am fascinated by different ways of interacting with a computer, and I see great potential in gesture controls once the field of machine learning expands!</p>
+                </div>
+
+                <h3 class="lines_header">Check it Out</h3>
+
+                <div class="download_links">
+                    <a href="https://people.rit.edu/jpw2065/330/projects/audio-visualizer/" target="_blank"><i
+                            class="fas fa-external-link-alt"></i></a>
+                </div>
+
+            </div>
+
+            <div id="project_text_eight" class="project_text display_grid display_none">
+
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Evolution Simulator</h2>
+                    <span class="timeline_span"><i>(2020 Septemmber)</i></span>
+                </div>
+
+                <div id="image_carnival_five" class="image_carnaval">
+                    <div class="pictures">
+                        <img src="./images/natural_selection/pic_one.png" class="project_pics">
+                        <img src="./images/natural_selection/pic_two.png" class="project_pics">
+                        <img src="./images/natural_selection/pic_three.png" class="project_pics">
+                        <a class="scroll_button next" onclick="increment(4, 1)"><i class="fas fa-chevron-right"></i></a>
+                        <a class="scroll_button prev" onclick="increment(4, -1)"><i class="fas fa-chevron-left"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="p_wrapper">
+                    <p>The goal I had in this project was to give a user the ability to interact with a simulation to change its outcome. I landed on creating an evolution simulator that gives the user controls to affect the creatures that are evolved. It works through the process of Q-Learning, basically giving these creatures reinforcement in terms of gaining the most amount of energy as possible, which acts as a way to maximize the creature's reward. The outcomes can be quite interesting. Give it a try!</p>
+                </div>
+
+                <h3 class="lines_header">Check it Out</h3>
+
+                <div class="download_links">
+                    <a href="https://people.rit.edu/jpw2065/330/projects/natural-selection/" target="_blank"><i
+                            class="fas fa-external-link-alt"></i></a>
+                </div>
+
+            </div>
+
+            <div id="project_text_nine" class="project_text display_grid display_none">
+
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Zen</h2>
+                    <span class="timeline_span"><i>(2020 December)</i></span>
+                </div>
+
+                <div id="image_carnival_six" class="image_carnaval">
+                    <div class="pictures">
+                        <img src="./images/zen/pic_one.png" class="project_pics">
+                        <img src="./images/zen/pic_two.png" class="project_pics">
+                        <img src="./images/zen/pic_three.png" class="project_pics">
+                        <img src="./images/zen/pic_four.png" class="project_pics">
+                        <a class="scroll_button next" onclick="increment(5, 1)"><i class="fas fa-chevron-right"></i></a>
+                        <a class="scroll_button prev" onclick="increment(5, -1)"><i class="fas fa-chevron-left"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="p_wrapper">
+                    <p>The initial concept of Zen was to provide some relaxing features for the user to interact with. Additionally, I set out to use two different APIs throughout the web application. One of the APIs was Trefle (plant searching), and the other API was Rita.js (haiku poem generation). I used Figma to create mockups of the application before implementation, and this workflow allowed me to finish the application in two days. To create this project I used JavaScript, HTML, and PHP. Overall, I was happy with how this project turned out as it resembled closely the vision I laid out in Figma.</p>
+                </div>
+
+                <h3 class="lines_header">Check it Out</h3>
+
+                <div class="download_links">
+                    <a href="https://people.rit.edu/jpw2065/330/projects/zen/" target="_blank"><i
+                            class="fas fa-external-link-alt"></i></a>
+                </div>
+
+            </div>
+
+            <div id="project_text_six" class="project_text display_grid_two display_none">
+
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">CREDIT</h2>
+                    <span class="timeline_span"><i>(2020 - Current)</i></span>
+                </div>
+
+                <div class="p_wrapper">
+                    <p>CREDIT otherwise known as Commercial Real Estate Deal Information Tracker is a web application that I currently work on for the client Largo Capital Inc. CREDIT is the method of choice for Largo to keep track of real estate deal information. Some highlights during my time at Largo included:</p>
+                    <ul>
+                        <li>Working alongside the business to turn their business needs into technical solutions.</li>
+                        <li>Creating a white label site to expand our application's customer base.</li>
+                        <li>Participating in daily standup meetings in an agile workflow environment.</li>
+                        <li>Creating a 6-month technical roadmap for the direction that Largo wants to take CREDIT in.</li>
+                        <li>Modernized the website interface to optimize the user experience using Bootstrap 4, HTML, CSS, and TWIG.</li>
+                        <li>Creating a permissions system that regulated which users had access to our application. Utilized RBAC permission controls.</li>
+                    </ul>
+                    <p>The application was developed using Laravel (PHP) and is structured in an MVC framework. We use PostgreSQL relational database to store data in the backend. Overall developing CREDIT taught me the intricacies of developing a web application for a larger customer base. Most importantly, it taught me how to take business needs and finding a way to utilize technology to satisfy the needs of the client.</p>
+                </div>
+
+            </div>
+
+            <div id="project_text_one" class="project_text display_grid display_none">
+
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Artifact</h2>
+                    <span class="timeline_span"><i>(2016 - 2018)</i></span>
+                </div>
+
+                <div id="image_carnival_one" class="image_carnaval">
+                    <div class="pictures">
+                        <img src="./images/artifact/pic_one.png" class="project_pics">
+                        <img src="./images/artifact/pic_two.png" class="project_pics">
+                        <img src="./images/artifact/pic_three.png" class="project_pics">
+                        <img src="./images/artifact/pic_four.png" class="project_pics">
+                        <img src="./images/artifact/pic_five.png" class="project_pics">
+                        <img src="./images/artifact/pic_six.png" class="project_pics">
+                        <img src="./images/artifact/pic_seven.png" class="project_pics">
+                        <img src="./images/artifact/pic_eight.png" class="project_pics">
+                        <a class="scroll_button next" onclick="increment(0, 1)"><i class="fas fa-chevron-right"></i></a>
+                        <a class="scroll_button prev" onclick="increment(0, -1)"><i class="fas fa-chevron-left"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="p_wrapper">
+                    <p>To this date, this has been the project that I have put the most time and effort into. I started out knowing little about game development, and programming. During my last two years of high school, I was able to develop Artifact from scratch. It was programmed using Java, and the graphics were hand made by me. I also had to develop a custom rendering system to display on Javas's canvas system. Additionally, I developed custom equations to simulate physics for the player. I also created a custom level editor to increase the speed at which I could develop levels for the game. Overall, I immensely enjoyed creating this project!</p>
+                </div>
+
+                <h3 class="lines_header">Download</h3>
+
+                <div class="download_links">
+                    <a href="https://github.com/JackWatson06/Artifact" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+
+            </div>
+
+            <div id="project_text_two" class="project_text display_grid display_none">
+
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Cave Game</h2>
+                    <span class="timeline_span"><i>(2017 May - June)</i></span>
+                </div>
+
+                <div id="image_carnival_three" class="image_carnaval">
+                    <div class="pictures">
+                        <img src="./images/cave_game/pic_one.png" class="project_pics">
+                        <img src="./images/cave_game/pic_two.png" class="project_pics">
+                        <img src="./images/cave_game/pic_three.png" class="project_pics">
+                        <img src="./images/cave_game/pic_four.png" class="project_pics">
+                        <img src="./images/cave_game/pic_five.png" class="project_pics">
+                        <!-- <div id="pictures_background"></div> -->
+                        <a class="scroll_button next" onclick="increment(2, 1)"><i class="fas fa-chevron-right"></i></a>
+                        <a class="scroll_button prev" onclick="increment(2, -1)"><i class="fas fa-chevron-left"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="p_wrapper">
+                    <p>Cave Game is a simple 2D platformer that I developed. Essentially, it uses a procedurally generated selection of segments that make up the playing field. This project took a month to complete and was programmed using Java. All of the graphics were rendered using a custom rendering method to render to a Java canvas.</p>
+                </div>
+
+
+                <h3 class="lines_header">Download</h3>
+
+                <div class="download_links">
+                    <a href="https://github.com/JackWatson06/Cave-Game" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                </div>
+
+            </div>
+
+            <div id="project_text_three" class="project_text display_grid display_none">
+
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Simple 3D</h2>
+                    <span class="timeline_span"><i>(2018 May - June)</i></span>
+                </div>
+
+                <div id="image_carnival_two" class="image_carnaval">
+                    <div class="pictures">
+                        <img src="./images/simple_3D/pic_one.png" class="project_pics">
+                        <img src="./images/simple_3D/pic_two.png" class="project_pics">
+                        <img src="./images/simple_3D/pic_three.png" class="project_pics">
+                        <img src="./images/simple_3D/pic_four.png" class="project_pics">
+                        <img src="./images/simple_3D/pic_five.png" class="project_pics">
+                        <img src="./images/simple_3D/pic_six.png" class="project_pics">
+                        <!-- <div id="pictures_background"></div> -->
+                        <a class="scroll_button next" onclick="increment(1, 1)"><i class="fas fa-chevron-right"></i></a>
+                        <a class="scroll_button prev" onclick="increment(1, -1)"><i class="fas fa-chevron-left"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="p_wrapper">
+                    <p>This program was made for people who want a simple 3D modeling program and are not yet trained on complicated 3D modeling software. It is the first application I created that used 3D graphics and the mathematics of 3D graphics. To complete this project I studied and applied the mathematics of 3D graphics. I developed a custom rendering method that converted 3D coordinates to a 2D coordinate system then rendered those 2D coordinates on a Java Swing Canvas. It is programmed in Java and rendered using Java's Swing library.</p>
+                </div>
+
+
+                <h3 class="lines_header">Download</h3>
+
+                <div class="download_links">
+                    <a href="https://github.com/JackWatson06/Simple3DModeling" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                </div>
+
+            </div>
+
+            <div id="project_text_four" class="project_text display_grid_two display_none">
+
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Pricetool</h2>
+                    <span class="timeline_span"><i>(2018 - 2020)</i></span>
+                </div>
+
+                <div class="p_wrapper">
+                    <p>The Pricetool is a web application that I developed for my client YourOnlineMarketplace. The company needed a method for keeping track of inventory, and also the products we sold on our Amazon store. I was able to help develop a variety of different tools for the business to use, such as an inventory scanning system, data visualization tools, and also product tracking tools. Some highlights during my work at YourOnlineMarketPlace include:</p>
+                    <ul>
+                        <li>Developing an inventory scanning system that updated the number of products stored in the warehouse.</li>
+                        <li>Utilizing Datatables to create a front end display for data that was stored in our relational database.</li>
+                        <li>Developing an Amazon Products Table which used the Amazon MWS API to pull down information about the products we sold on our store.</li>
+                        <li>Meeting weekly with the client to understand their needs.</li>
+                    </ul>
+                    <p>The application was developed using Ruby, Sinatra, and MySQL. We used HTML, Javascript, and CSS to style the front end aspect of the application. Overall, the work I did for OnlineMarketPlace taught me a variety of skills for developing Web Applications since this was my first position as a Full Stack Developer.</p>
+                </div>
+
+            </div>
+
+            <div id="project_text_five" class="project_text display_grid display_none">
+
+                <div class="project_header_wrapper">
+                    <h2 class="lines_header">Students for Action</h2>
+                    <span class="timeline_span"><i>(2018 March)</i></span>
+                </div>
+
+                <div class="image_carnaval">
+                    <div class="pictures">
+                        <img src="./images/students_for_action/pic_one.png" class="project_pics"
+                            style="display: block;">
+                    </div>
+
+                </div>
+
+                <div class="p_wrapper">
+                    <p>Students for Action is a website designed to help students get more involved in government and local politics. Although I did not make the website I helped develop their mapping systems. The site includes a map that shows the time and location of posted events. The map uses the google map API, and a MySQL database to store the information. I also developed a sister site with HTML, and Javascript to act as a data entry page.</p>
+                </div>
+
+
+                <h3 class="lines_header">Check it Out</h3>
+
+                <div class="download_links">
+                    <a href="https://studentsforaction.org/" target="_blank"><i
+                            class="fas fa-external-link-alt"></i></a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <div id="body_wrapper">
+
+        <section id="title">
+
+            <div id="top_icons" class="icon_wrapper">
+                <a href="https://rit.joinhandshake.com/users/14307594" target="_blank"><i class="fas fa-handshake"></i></a>
+                <a href="https://www.linkedin.com/in/jack-watson-46ab71196/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="Jack_Watson_Resume.pdf" target="_blank"><i class="far fa-file-pdf" target="_blank"></i></a>
+                <a href="https://github.com/JackWatson06" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+
+            <h1>Jack<br />Watson</h1>
+
+            <svg version='1.1' baseProfile='full' preserveAspectRatio='xMidYMid meet' viewBox='0 0 100 130'
+                xmlns='http://www.w3.org/2000/svg' id="wheel">
+                <style>
+                    .a {
+                        fill: url(#triangle-gradient);
+                    }
+
+                    .b {
+                        fill: var(--secondary-color);
+                    }
+
+                    .c {
+
+                        fill: var(--heading-color);
+
+                    }
+
+                    .d {
+
+                        fill: var(--accent-color);
+
+                    }
+
+                    .e {
+
+                        fill: var(--heading-color);
+                        font-family: 'Roboto Slab', serif;
+                        font-size: 4pt;
+
+                    }
+                </style>
+
+                <g class="rotate">
+                    <polygon points='50.0,34.0 17.09,91.0 82.91,91.0' class="a" />
+
+
+                </g>
+
+                <linearGradient id="triangle-gradient" gradientTransform="rotate(90)">
+                    <stop id="triangle_gradient_first" offset="0%" />
+                    <stop id="triangle_gradient_second" offset="100%" />
+                </linearGradient>
+
+                <g>
+
+
+
+                </g>
+
+                <g class="circle_top">
+
+                    <!-- <circle cx='50.0' cy='10.0' r='10.0' class="b" />
+                        <text x="50" y="11" dominant-baseline="middle" text-anchor="middle" class="c">&#xf11b;</text> -->
+
+                    <circle cx='50.0' cy='72.0' r='10.0' class="b" />
+                    <text x="50" y="73.0" dominant-baseline="middle" text-anchor="middle" class="c">&#xf11b;</text>
+
+                </g>
+
+                <g class="circle_right">
+                    <!-- 
+                        <circle cx='84.64' cy='70.0' r='10.0' class="b" />
+                        <text x="84.64" y="71" dominant-baseline="middle" text-anchor="middle" class="c">&#xf120;</text> -->
+
+                    <circle cx='50' cy='72.0' r='10.0' class="b" />
+                    <text x="50" y="73.0" dominant-baseline="middle" text-anchor="middle" class="c">&#xf120;</text>
+
+                </g>
+
+                <g class="circle_left">
+                    <!-- 
+                        <circle cx='15.36' cy='70.0' r='10.0' class="b" />
+                        <text x="15.36" y="71" dominant-baseline="middle" text-anchor="middle" class="c">&#xf121;</text> -->
+
+                    <circle cx='50' cy='72.0' r='10.0' class="b" />
+                    <text x="50" y="73.0" dominant-baseline="middle" text-anchor="middle" class="c">&#xf121;</text>
+
+                </g>
+
+                <g class="speech_bubble_game_developer">
+
+                    <path id="speech_bubble_path"
+                        d="M50.0,0.0 L62.5,0.0 A5.0,5.0 0 0 1 67.5,5.0 L67.5,10.0 A5.0,5.0 0 0 1 62.5,15.0 L37.5,15.0 A5.0,5.0 0 0 1 32.5,10.0 L32.5,5.0 A5.0,5.0 0 0 1 37.5,0.0 L50.0,0.0 Z"
+                        class="d" />
+                    <path id="speech_bubble_path_one"
+                        d="M50.0,15.5 L52.5,15.5 A0.8,0.8 0 0 1 53.3,16.3 L53.3,17.1 A0.8,0.8 0 0 1 52.5,17.9 L47.5,17.9 A0.8,0.8 0 0 1 46.7,17.1 L46.7,16.3 A0.8,0.8 0 0 1 47.5,15.5 L50.0,15.5 Z"
+                        class="d" />
+                    <path id="speech_bubble_path_two"
+                        d="M50.0,18.4 L51.0,18.4 A0.6,0.6 0 0 1 51.6,19.0 L51.6,19.6 A0.6,0.6 0 0 1 51.0,20.20 L49.0,20.20 A0.6,0.6 0 0 1 48.4,19.6 L48.4,19.0 A0.6,0.6 0 0 1 49.0,18.4 L50.0,18.4 Z"
+                        class="d" />
+                    <text x="50" y="5" dominant-baseline="middle" text-anchor="middle" class="e">Game</text>
+                    <text x="50" y="11" dominant-baseline="middle" text-anchor="middle" class="e">Developer</text>
+
+                </g>
+
+
+                <g class="speech_bubble_web_developer">
+
+                    <path id="speech_bubble_path"
+                        d="M50.0,0.0 L62.5,0.0 A5.0,5.0 0 0 1 67.5,5.0 L67.5,10.0 A5.0,5.0 0 0 1 62.5,15.0 L37.5,15.0 A5.0,5.0 0 0 1 32.5,10.0 L32.5,5.0 A5.0,5.0 0 0 1 37.5,0.0 L50.0,0.0 Z"
+                        class="d" />
+                    <path id="speech_bubble_path_one"
+                        d="M50.0,15.5 L52.5,15.5 A0.8,0.8 0 0 1 53.3,16.3 L53.3,17.1 A0.8,0.8 0 0 1 52.5,17.9 L47.5,17.9 A0.8,0.8 0 0 1 46.7,17.1 L46.7,16.3 A0.8,0.8 0 0 1 47.5,15.5 L50.0,15.5 Z"
+                        class="d" />
+                    <path id="speech_bubble_path_two"
+                        d="M50.0,18.4 L51.0,18.4 A0.6,0.6 0 0 1 51.6,19.0 L51.6,19.6 A0.6,0.6 0 0 1 51.0,20.20 L49.0,20.20 A0.6,0.6 0 0 1 48.4,19.6 L48.4,19.0 A0.6,0.6 0 0 1 49.0,18.4 L50.0,18.4 Z"
+                        class="d" />
+                    <text x="50" y="5" dominant-baseline="middle" text-anchor="middle" class="e">Web</text>
+                    <text x="50" y="11" dominant-baseline="middle" text-anchor="middle" class="e">Developer</text>
+
+                </g>
+
+
+                <g class="speech_bubble_software_developer">
+
+                    <path id="speech_bubble_path"
+                        d="M50.0,0.0 L62.5,0.0 A5.0,5.0 0 0 1 67.5,5.0 L67.5,10.0 A5.0,5.0 0 0 1 62.5,15.0 L37.5,15.0 A5.0,5.0 0 0 1 32.5,10.0 L32.5,5.0 A5.0,5.0 0 0 1 37.5,0.0 L50.0,0.0 Z"
+                        class="d" />
+                    <path id="speech_bubble_path_one"
+                        d="M50.0,15.5 L52.5,15.5 A0.8,0.8 0 0 1 53.3,16.3 L53.3,17.1 A0.8,0.8 0 0 1 52.5,17.9 L47.5,17.9 A0.8,0.8 0 0 1 46.7,17.1 L46.7,16.3 A0.8,0.8 0 0 1 47.5,15.5 L50.0,15.5 Z"
+                        class="d" />
+                    <path id="speech_bubble_path_two"
+                        d="M50.0,18.4 L51.0,18.4 A0.6,0.6 0 0 1 51.6,19.0 L51.6,19.6 A0.6,0.6 0 0 1 51.0,20.20 L49.0,20.20 A0.6,0.6 0 0 1 48.4,19.6 L48.4,19.0 A0.6,0.6 0 0 1 49.0,18.4 L50.0,18.4 Z"
+                        class="d" />
+                    <text x="50" y="5" dominant-baseline="middle" text-anchor="middle" class="e">Software</text>
+                    <text x="50" y="11" dominant-baseline="middle" text-anchor="middle" class="e">Developer</text>
+
+                </g>
+
+
+
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 639.2 194.7"
+                id="gradient_curve_one">
+                <defs>
+                    <path
+                        d="M0 194.7L640 194.7 640 18.6C639.7 19.1 639.4 19.5 639.2 19.7 631.6 29.3 609.7 38.4 573.4 47.1 474.6 64.2 372.2 55.3 266 20.4 159.9-14.6 71.2-4.5 0 50.6L0 194.7Z"
+                        id="a2VGSj6JTk" />
+                </defs>
+                <use xlink:href="#a2VGSj6JTk" fill="var(--gradient-color-one)" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 636.8 105.8"
+                id="gradient_curve_two">
+                <defs>
+                    <path
+                        d="M0 105.8L640 105.8 640 16C638.2 15.3 636.8 14.8 635.9 14.5 597.9 0.4 544-13.5 424.8 24.8 301.3 64.6 272.4 57 168.7 24.8 99.5 3.4 43.3-2.7 0 6.6L0 105.8Z"
+                        id="g1tc17HHzC" />
+                </defs>
+                <use xlink:href="#g1tc17HHzC" fill="var(--gradient-color-two)" />
+            </svg>
+
+        </section>
+
+        <main>
+
+            <div id="bio">
+
+                <div id="bio_curve_wrapper">
+                    <span id="project_title">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 100 28">
+                            <defs>
+                                <path
+                                    d="m5.551115123125783e-17,8c12,12,31,20,50,20c19,0,38,-7.600006103515625,50,-20l0.00002288818359375,-8l-99.99999988818308,0l0,8"
+                                    id="g2kfV7dS7" />
+                            </defs>
+                            <use xlink:href="#g2kfV7dS7" fill="var(--gradient-color-one)" />
+                        </svg>
+
+                        <h2 class="lines_header">Projects</h2>
+
+
+                    </span>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 640 250"
+                        id="gradient_curve_three">
+                        <defs>
+                            <path
+                                d="M640 0L0 0 0 195.3C0.3 194.8 0.6 194.4 0.8 194.1 8.4 183.5 30.3 173.3 66.7 163.7 165.4 144.7 267.8 154.6 374 193.4 480.2 232.1 568.8 221 640 159.9L640 0Z"
+                                id="a3IGiw5bol" />
+                        </defs>
+                        <use xlink:href="#a3IGiw5bol" fill="var(--gradient-color-two)" />
+                    </svg>
+
+                </div>
+
+                <div id="bio_text_wrapper">
+
+                    <h2 class="lines_header">Bio</h2>
+
+                    <p>Hi there! My name is Jack Watson a third-year Game Development student at RIT. I am looking for a 2021 summer internship in the web, game, and software development fields. I am currently working as a Full Stack Developer in Western New York. Feel free to take a look around my portfolio!</p>
+
+                </div>
+
+            </div>
+
+
+            <div id="floating_wrapper">
+
+
+                <!-- Use a modal box! -->
+                <div id="project_seven" class="project">
+
+                    <div class="image_wrapper">
+                        <img src="./images/audio_visualizer/pic_one.png" alt="Audio Visualizer Picture" style="object-position: 0 40%;">
+                    </div>
+
+
+                    <div class="project_text_wrapper">
+
+                        <h3 class="lines_header">Audio Visualizer</h3>
+                        <p>Javascript computer vision audio visualizer</p>
+
+                    </div>
+
+                </div>
+
+                <div id="project_six" class="project">
+
+                    <div class="image_wrapper">
+                        <img src="./images/credit/pic_one.png" alt="CREDIT Picture">
+                    </div>
+
+
+                    <div class="project_text_wrapper">
+
+                        <h3 class="lines_header">CREDIT</h3>
+                        <p>Laravel based web application</p>
+
+                    </div>
+
+                </div>
+
+                <div id="project_four" class="project">
+
+
+                    <div class="image_wrapper">
+                        <img src="./images/pricetool/pic_one.png" alt="Tech Image" style="object-position: 0 72%;">
+                    </div>
+
+
+                    <div class="project_text_wrapper">
+
+                        <h3 class="lines_header">Pricetool</h3>
+                        <p>Web based product management application</p>
+
+                    </div>
+
+                </div>
+
+                <div id="project_eight" class="project">
+
+                    <div class="image_wrapper">
+                        <img src="./images/natural_selection/pic_one.png" alt="Evolution Simulator Picture" style="object-position: 0 5%;">
+                    </div>
+
+
+                    <div class="project_text_wrapper">
+
+                        <h3 class="lines_header">Evolution Simulator</h3>
+                        <p>Javascript based Q-learning simulation</p>
+
+                    </div>
+
+                </div>
+
+                <div id="project_nine" class="project">
+
+                    <div class="image_wrapper">
+                        <img class="img_border" src="./images/zen/pic_one.png" alt="Zen Application Picture" style="object-position: 0 25%;">
+                    </div>
+
+
+                    <div class="project_text_wrapper">
+
+                        <h3 class="lines_header">Zen</h3>
+                        <p>Javascript meditation web application</p>
+
+                    </div>
+
+                </div>
+
+                <div id="project_one" class="project">
+
+                    <div class="image_wrapper">
+                        <img src="./images/artifact/pic_eight.png" alt="Artifact Picture">
+                    </div>
+
+
+                    <div class="project_text_wrapper">
+
+                        <h3 class="lines_header">Artifact</h3>
+                        <p>Java based 2D platformer</p>
+
+                    </div>
+
+                </div>
+
+                <div id="project_three" class="project">
+
+
+                    <div class="image_wrapper">
+                        <img src="./images/simple_3D/pic_three.png" alt="Simple 3D Picture"
+                            style="object-position: 0 50%;">
+                    </div>
+
+
+                    <div class="project_text_wrapper">
+
+                        <h3 class="lines_header">Simple 3D</h3>
+                        <p>Java based 3D modeling program</p>
+
+                    </div>
+
+                </div>
+
+                <div id="project_two" class="project">
+
+                    <div class="image_wrapper">
+                        <img src="./images/cave_game/pic_one.png" alt="Cave Game Picture"
+                            style="object-position: 0 72%;">
+                    </div>
+
+
+                    <div class="project_text_wrapper">
+
+                        <h3 class="lines_header">Cave Game</h3>
+                        <p>Procedurally generated 2D platformer</p>
+
+                    </div>
+
+                </div>
+
+                <div id="project_five" class="project">
+
+
+                    <div class="image_wrapper">
+                        <img src="./images/students_for_action/pic_one.png" alt="Students for Action">
+                    </div>
+
+
+                    <div class="project_text_wrapper">
+
+                        <h3 class="lines_header">Students for Action</h3>
+                        <p>Online events map</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+
+        <footer>
+
+            <div class="icon_wrapper">
+                <a href="https://rit.joinhandshake.com/users/14307594" target="_blank"><i class="fas fa-handshake"></i></a>
+                <a href="https://www.linkedin.com/in/jack-watson-46ab71196/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="Jack_Watson_Resume.pdf" target="_blank"><i class="far fa-file-pdf" target="_blank"></i></a>
+                <a href="https://github.com/JackWatson06" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+
+            <p>watson.jack.p@gmail.com</p>
+
+        </footer>
+
+    </div>
+
+
+</body>
+
+
+
+</html>

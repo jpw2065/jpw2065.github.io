@@ -1,0 +1,360 @@
+@media screen and (max-width: 1600px){
+
+    .icon_wrapper {
+        font-size: 2.8em;
+    }
+
+    .project_box{
+
+        width: 45vw;
+
+    }
+
+    #bio_curve_wrapper {
+
+        top: 1vh;
+        
+    }
+
+    #project_title{
+
+        top: calc(100% - 47%);
+        width: 54vw;
+
+    }
+
+    #wheel{
+
+        width: 40rem;
+
+    }
+
+    .close_project{
+
+        right: 8.7vw;
+
+    }
+
+}
+
+@media screen and (max-width: 1400px){
+
+    .icon_wrapper {
+        font-size: 2.6em;
+    }
+
+    .project_box{
+
+        width: 55vw;
+
+    }
+
+    #bio_curve_wrapper {
+
+        top: 1vh;
+        
+    }
+
+    #wheel{
+
+        width: 33rem;
+
+    }
+
+    .close_project{
+
+        right: 10.5vw;
+
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+
+    .icon_wrapper {
+        font-size: 2.4em;
+    }
+
+    #title h1 {
+
+        margin-left: 0;
+        margin-top: 4vh;
+        margin-bottom: 6vh;
+        text-align: center;
+
+
+    }
+
+    #wheel {
+        
+        position: relative;
+        margin: auto;
+
+        display: block;
+
+        transform: none;
+
+        left: 0;
+        top: 0;
+        
+ 
+    }
+
+    #bio_curve_wrapper {
+
+        top: 2vh;
+
+    }
+
+    #body_wrapper{
+
+        grid-template-rows: minmax(67rem, 100vh) auto 12vh;
+
+    }
+
+}
+
+@media screen and (max-width: 992px){
+
+    .icon_wrapper {
+        font-size: 2.2em;
+    }
+
+    body.project_open {
+        padding-right: 0px;
+    }
+
+
+    #bio_text_wrapper {
+
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 2vh;
+
+    }
+
+    .project {
+
+        width: 90vw;
+
+    }
+
+    .project_box {
+        width: 80vw;
+    }
+
+    #bio{
+
+        height: 26vh;
+
+    }
+
+    #project_title{
+
+        top: calc(100% - 41%);
+        width: 58vw;
+
+    } 
+
+    #bio_curve_wrapper {
+
+        top: 5vh;
+
+    }
+
+    .close_project {
+        right: 16.0vw;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+
+    .close_project {
+        right: 18.7vw;
+    }
+
+    .icon_wrapper {
+        font-size: 2.0em;
+    }
+
+    .lines_header:before{
+    
+        height: 0px;
+        width: 0px;
+    
+        margin-right: 0px;
+    
+    }
+
+    .lines_header:after {
+    
+        height: 0px;
+        width: 0px;
+    
+        margin-left: 0px;
+    
+    }
+
+    .project {
+
+        width: 98vw;
+
+    }
+
+    .project_box {
+        width: 100vw;
+    }
+
+    .project:hover{
+
+        transform: scaleY(1.1);
+    
+    }
+    
+    .project:hover h2::after{
+    
+        width: 80px;
+    
+    }
+    
+    .project:hover h2::before{
+    
+        width: 80px;
+    
+    }
+
+    #project_title {
+
+        width: 74vw;
+
+    }
+
+    #body_wrapper{
+
+        grid-template-rows: minmax(67rem, 100vh) auto 12vh;
+
+    }
+
+    #bio_curve_wrapper {
+
+        top: 13em;
+        height: 18vh;
+        min-height: 13rem;
+
+    }
+
+
+}
+
+@media screen and (max-width: 576px){
+
+    #title h1 {
+
+        font-size: 6em;
+
+    }
+
+    .icon_wrapper {
+        font-size: 1.8em;
+    }
+
+
+    .close_project {
+        right: 17.2vw;
+    }
+
+    h2{
+
+        font-size: 1.6em;
+
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    #bio_text_wrapper p {
+        
+        font-size: 0.8em;
+
+    }
+
+    #floating_wrapper {
+        margin-top: 24vh;
+    }
+
+    .project {
+        border-radius: 12px;
+        width: 100vw;
+        height: 13vh;
+    }
+
+    .image_wrapper img {
+        border-bottom-left-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .project_text_wrapper p {
+        margin-top: 5px;
+        font-size: 0.8em;
+    }
+
+    .project_box p {
+        font-size: 0.8em;
+    }
+
+    .project_text .p_wrapper {
+        font-size: 0.8em;
+    }
+
+    .project_box ul {
+        font-size: 0.8em;
+    }
+    
+    .project_box {
+        height: 100vh;
+    }
+
+    footer p {
+        font-size: 0.8em;
+    }
+
+    .project:hover h2::after{
+    
+        width: 40px;
+    
+    }
+    
+    .project:hover h2::before{
+    
+        width: 40px;
+    
+    }
+
+    #project_title {
+        
+        top: calc(100% - 60%);
+        width: 104vw;
+
+    } 
+
+    #body_wrapper{
+
+        grid-template-rows: minmax(58rem, 100vh) auto 12vh;
+
+    }
+
+    #bio_curve_wrapper {
+
+        top: 14em;
+        height: 15vh;
+        min-height: 8rem;
+
+    }
+
+}
+
